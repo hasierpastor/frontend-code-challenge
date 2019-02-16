@@ -6,12 +6,20 @@
 </head>
 <body>
   <h1>Yodlr Registration Portal</h1>
-  <form>
-    Email: <input type="email" name="email"></br>
-    <button type="submit">Submit</button>
+  <form id="signup">
+    First Name: <input id="firstName" type="firstName" name="firstName"></br>
+    Last Name: <input id="lastName" type="lastName" name="lastName"></br>
+    Email: <input id="email" type="email" name="email"></br>
+    <button id="submit-button" type="submit">Submit</button>
   </form>
   <p>
     <a href="/admin.html">Admin Page</a>
   </p>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous">
+  </script>
+  <script src="signup.js"></script>
 </body>
 </html>
